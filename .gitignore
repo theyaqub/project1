@@ -1,0 +1,9 @@
+# mylogs.log used to ignore only the file name having "mylogs.log " in the file 
+# /log.log used to ignore the file which is present in the git not in another file like logs/log.log  
+# *.log used to ignore all the .log extensions in the repository or file
+# to ignore the the file we use "fileName/" in .gitignore file 
+# whatever the changes are done in the ingnore file the git directly ignore them etc..
+mylogs.log
+/log.log
+*.log 
+logs/
